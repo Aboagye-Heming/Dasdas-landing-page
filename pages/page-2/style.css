@@ -1,0 +1,84 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  .container {
+    margin-left: 148px;
+    margin-right: 148px;
+  }
+  
+  /* typography */
+  .text-sm {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .text-md {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .text-lg {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .text-xl {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .text-xxl {
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  
+  /* header styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 58px;
+  }
+  .header-icons {
+    display: flex;
+    column-gap: 25px;
+  }
+
+  /* hero section */
+  .css-component {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 52px;
+    padding: 10px 10px;
+  }
+  .css-grid {
+    margin-right: 47px;
+  }
+  .css-variables {
+    margin-bottom: 0;
+  }
+  .css-grid .text-md {
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+  .css-grid .text-sm {
+    margin-top: 8px;
+    margin-bottom: 21px;
+  }
+  .css-grid-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }

@@ -1,0 +1,134 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.container {
+  margin-left: 148px;
+  margin-right: 148px;
+}
+
+/* typography */
+.text-sm {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.text-md {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.text-lg {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+.text-xl {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
+.text-xxl {
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+/* header styles */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 58px;
+}
+.header-icons {
+  display: flex;
+  column-gap: 25px;
+}
+
+/* hero styles */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px;
+}
+.hero-content {
+  position: relative;
+}
+.container.hero h1 {
+  background-color: #ef5623;
+  color: #ffffff;
+  padding: 136px 50px 48px 16px;
+  max-width: 500px;
+  margin-right: 15.5px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.time-site-opened {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1px;
+  position: absolute;
+  bottom: 0;
+}
+
+/* css component styles */
+.css-component {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 52px;
+  padding: 10px 10px;
+}
+.css-grid {
+  margin-right: 47px;
+}
+.css-variables {
+  margin-bottom: 0;
+}
+.css-grid .text-md {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.css-grid .text-sm {
+  margin-top: 8px;
+  margin-bottom: 21px;
+}
+.css-grid-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* footer */
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer button {
+  background-color: black;
+  color: #ffffff;
+  padding: 12px 55px;
+}
+footer p {
+  max-width: 741px;
+  text-align: center;
+  max-width: 741px;
+}
